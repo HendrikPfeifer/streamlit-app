@@ -17,7 +17,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/kirenz/datasets/master/oecd-
 # HEADER
 
 # Title of our app
-st.title("My first App")
+st.title("Hello World: My first App")
 
 # Add image
 st.image('hdm-logo.jpg')
@@ -29,7 +29,7 @@ st.header("My header")
 # SIDEBAR
 
 # Header
-st.sidebar.header("This is my sidebar")
+st.sidebar.header("This is my new sidebar")
 
 # Make a slider
 satisfaction = st.sidebar.slider('What is your life satisfaction?', 0, 10, 1)
